@@ -53,20 +53,35 @@ Find AI tools by category, explore tool details, and manage admin replies with s
 ## 📁 Project Structure
 ai-tools-website/
 ├── app/
+
 │   ├── api/
+
 │   │   ├── contact/route.ts
+
 │   │   ├── admin/
+
 │   │   │   ├── login/route.ts
+
 │   │   │   └── reply/route.ts
+
 │   ├── components/
+
 │   ├── (pages...)
+
 │   └── layout.tsx
+
 ├── public/
+
 │   ├── logos/
+
 │   ├── favicon.ico
+
 ├── lib/
+
 │   ├── getTools.ts
+
 │   ├── auth.ts
+
 
 
 ---
