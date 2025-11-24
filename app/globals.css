@@ -1,0 +1,304 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --primary: #0ea5e9; }
+
+html,body,#__next{height:100%}
+.container{@apply mx-auto px-4 sm:px-6 lg:px-8}
+.font-inter { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+
+
+/* === UI fixes injected by ChatGPT === */
+/* Make search / filter / tag text visible (high contrast) */
+input[type="search"], input[type="text"], .search-input, .filter-input {
+  color: #0f172a !important; /* dark text */
+  background-color: #ffffff !important;
+  caret-color: #111827 !important;
+}
+
+/* Center main container and enlarge tool boxes */
+.main-container, .tools-container, #main, .container {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+/* Tool card improvements */
+.tool-card, .card, .toolBox, .tool-card-wrapper {
+  min-width: 260px;
+  max-width: 340px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 220ms ease, box-shadow 220ms ease, opacity 300ms ease;
+}
+
+/* Ensure tags wrap inside card and don't overflow */
+.tag, .tags, .pill, .chip {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin: 4px 6px 4px 0;
+  white-space: nowrap;
+}
+
+.tags-wrapper, .tags {
+  flex-wrap: wrap !important;
+  overflow: visible !important;
+}
+
+/* Staggered fade-in for cards */
+.tool-card { opacity: 0; transform: translateY(8px); }
+.tool-card.visible { opacity: 1; transform: translateY(0px); }
+
+/* Tabs and category selector styling */
+.category-bar, .tabs-bar {
+  display:flex;
+  gap:8px;
+  align-items:center;
+  justify-content:flex-start;
+  overflow-x:auto;
+  padding:8px 4px;
+  -webkit-overflow-scrolling: touch;
+}
+.category-pill {
+  white-space:nowrap;
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(15,23,42,0.06);
+  cursor:pointer;
+  border:1px solid transparent;
+}
+.category-pill.active { background: rgba(59,130,246,0.12); border-color: rgba(59,130,246,0.18); }
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .tool-card, .card, .toolBox { min-width: 220px; max-width: 90%; margin:8px auto; }
+  .category-bar { justify-content:flex-start; }
+}
+
+/* Accessibility: ensure focus visible */
+input:focus, .category-pill:focus, .category-pill:active { outline: 3px solid rgba(59,130,246,0.24); outline-offset: 2px; }
+
+html {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+@keyframes icon-rotate {
+  0% {
+    transform: rotate(-180deg);
+    opacity: 0;
+    scale: 0.6;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.animate-switch-icon {
+  animation: icon-rotate 0.35s ease-out;
+}
+
+html {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+* {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    translate: 0 15px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+@keyframes pageSlideFade {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  animation: pageSlideFade 0.6s ease forwards;
+}
+@keyframes shimmerGlow {
+  0% {
+    opacity: 0.15;
+    filter: blur(18px);
+  }
+  50% {
+    opacity: 0.4;
+    filter: blur(25px);
+  }
+  100% {
+    opacity: 0.15;
+    filter: blur(18px);
+  }
+}
+
+.shimmer-blur {
+  position: absolute;
+  inset: -4px;
+  border-radius: 24px;
+  background: linear-gradient(135deg,
+    rgba(0, 132, 255, 0.4),
+    rgba(0, 110, 255, 0.2),
+    rgba(0, 110, 255, 0.4)
+  );
+  z-index: 0;
+  animation: shimmerGlow 4s infinite ease-in-out;
+  pointer-events: none;
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(.95);
+  }
+  50% {
+    opacity: .7;
+    transform: translateY(10px) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.contact-animate {
+  animation: popIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+/* Parallax + bounce */
+.tilt-effect {
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+/* Entrance animation */
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(.95);
+  }
+  50% {
+    opacity: .75;
+    transform: translateY(10px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.contact-animate {
+  animation: popIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Pulsing focus field glow */
+input:focus, textarea:focus {
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.6);
+}
+
+/* Neon border loop */
+.glass-neon {
+  position: relative;
+  overflow: hidden;
+}
+.glass-neon::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  border: 2px solid rgba(0, 150, 255, 0.6);
+  animation: neonPulse 3.2s infinite ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes neonPulse {
+  0% { opacity: 0.25; filter: blur(15px); }
+  50% { opacity: 0.45; filter: blur(25px); }
+  100% { opacity: 0.25; filter: blur(15px); }
+}
+
+@keyframes neonSlide {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+/* Admin card dark-glass */
+.admin-card {
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(9,13,20,0.6), rgba(8,11,18,0.4));
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(12,40,80,0.12);
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.admin-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(2,10,40,0.6);
+}
+
+/* subtle unread highlight */
+.unread {
+  background: linear-gradient(180deg, rgba(6,14,28,0.6), rgba(6,10,20,0.45));
+  border-color: rgba(0,138,255,0.12);
+}
+
+/* modal */
+.reply-modal {
+  animation: popIn 0.24s cubic-bezier(.16,1,.3,1);
+}
+
+/* tiny popIn */
+@keyframes popIn {
+  from { opacity: 0; transform: translateY(12px) scale(.995); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}

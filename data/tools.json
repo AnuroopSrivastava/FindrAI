@@ -1,0 +1,1779 @@
+[
+  {
+    "name": "AdCreative.ai",
+    "slug": "adcreativeai",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "Generate high-performing ad creatives using AI.",
+    "website": "https://adcreative.ai",
+    "logo": "/logos/adcreativeai.png",
+    "tags": [
+      "ads",
+      "creative"
+    ]
+  },
+  {
+    "name": "Adept",
+    "slug": "adept",
+    "category": "Automation",
+    "pricing": "Paid",
+    "description": "Agentic AI workflows that control apps and tools.",
+    "website": "https://adept.ai",
+    "logo": "/logos/adept.png",
+    "tags": [
+      "agents",
+      "automation"
+    ]
+  },
+  {
+    "name": "AgentGPT",
+    "slug": "agentgpt",
+    "category": "Agents",
+    "pricing": "Open",
+    "description": "Create autonomous AI agents for tasks and experiments.",
+    "website": "https://agentgpt.reworkd.ai",
+    "logo": "/logos/agentgpt.png",
+    "tags": [
+      "agents",
+      "automation"
+    ]
+  },
+  {
+    "name": "Aiva",
+    "slug": "aiva",
+    "category": "Music",
+    "pricing": "Paid",
+    "description": "Compose emotional music using AI for games and media.",
+    "website": "https://aiva.ai",
+    "logo": "/logos/aiva.png",
+    "tags": [
+      "music",
+      "composition"
+    ]
+  },
+  {
+    "name": "Algolia Answers",
+    "slug": "algolia-answers",
+    "category": "Search",
+    "pricing": "Paid",
+    "description": "AI-powered search and answers over your data.",
+    "website": "https://algolia.com",
+    "logo": "/logos/algolia-answers.png",
+    "tags": [
+      "search",
+      "answers"
+    ]
+  },
+  {
+    "name": "Amplify.ai",
+    "slug": "amplifyai",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "Conversational marketing platforms with AI flows.",
+    "website": "https://amplify.ai",
+    "logo": "/logos/amplifyai.png",
+    "tags": [
+      "marketing",
+      "chatbot"
+    ]
+  },
+  {
+    "name": "Anyscale",
+    "slug": "anyscale",
+    "category": "ML Infra",
+    "pricing": "Paid",
+    "description": "Serverless platform for scaling Ray and ML workloads.",
+    "website": "https://anyscale.com",
+    "logo": "/logos/anyscale.png",
+    "tags": [
+      "mlinfra",
+      "ray"
+    ]
+  },
+  {
+    "name": "Aporia",
+    "slug": "aporia",
+    "category": "Monitoring",
+    "pricing": "Paid",
+    "description": "Model monitoring and drift detection for production models.",
+    "website": "https://aporia.com",
+    "logo": "/logos/aporia.png",
+    "tags": [
+      "monitoring",
+      "ml"
+    ]
+  },
+  {
+    "name": "AskCodi",
+    "slug": "askcodi",
+    "category": "Developer",
+    "pricing": "Freemium",
+    "description": "Code QA and generation inside VS Code and web.",
+    "website": "https://askcodi.com",
+    "logo": "/logos/askcodi.png",
+    "tags": [
+      "code",
+      "assistant"
+    ]
+  },
+  {
+    "name": "AssemblyAI",
+    "slug": "assemblyai",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Speech-to-text API with advanced features.",
+    "website": "https://assemblyai.com",
+    "logo": "/logos/assemblyai.png",
+    "tags": [
+      "stt",
+      "api"
+    ]
+  },
+  {
+    "name": "AutoDraw",
+    "slug": "autodraw",
+    "category": "Design",
+    "pricing": "Free",
+    "description": "Quick drawing suggestions and shape recognition with AI.",
+    "website": "https://autodraw.com",
+    "logo": "/logos/autodraw.png",
+    "tags": [
+      "design",
+      "sketch"
+    ]
+  },
+  {
+    "name": "AutoGPT",
+    "slug": "autogpt",
+    "category": "Agents",
+    "pricing": "Open",
+    "description": "Open-source framework for autonomous AI agents.",
+    "website": "https://github.com/Significant-Gravitas/Auto-GPT",
+    "logo": "/logos/autogpt.png",
+    "tags": [
+      "agents",
+      "open-source"
+    ]
+  },
+  {
+    "name": "Bard",
+    "slug": "bard",
+    "category": "Chatbot",
+    "pricing": "Freemium",
+    "description": "Google's conversational AI for search and creative tasks.",
+    "website": "https://bard.google.com",
+    "logo": "/logos/bard.png",
+    "tags": [
+      "chatbot",
+      "search"
+    ]
+  },
+  {
+    "name": "BigML",
+    "slug": "bigml",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "ML platform for predictive modeling and data prep.",
+    "website": "https://bigml.com",
+    "logo": "/logos/bigml.png",
+    "tags": [
+      "ml",
+      "platform"
+    ]
+  },
+  {
+    "name": "Boomy",
+    "slug": "boomy",
+    "category": "Music",
+    "pricing": "Freemium",
+    "description": "Instant song creation and distribution with AI.",
+    "website": "https://boomy.com",
+    "logo": "/logos/boomy.png",
+    "tags": [
+      "music",
+      "creation"
+    ]
+  },
+  {
+    "name": "Bubble",
+    "slug": "bubble",
+    "category": "No-Code",
+    "pricing": "Freemium",
+    "description": "Visual web app builder with plugins for AI integration.",
+    "website": "https://bubble.io",
+    "logo": "/logos/bubble.png",
+    "tags": [
+      "no-code",
+      "web"
+    ]
+  },
+  {
+    "name": "Canva Magic Write",
+    "slug": "canva-magic-write",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "AI writing and design tools inside Canva.",
+    "website": "https://canva.com",
+    "logo": "/logos/canva-magic-write.png",
+    "tags": [
+      "design",
+      "writing"
+    ]
+  },
+  {
+    "name": "CaptionGen",
+    "slug": "captiongen",
+    "category": "Social",
+    "pricing": "Freemium",
+    "description": "Generate social media captions and hashtags.",
+    "website": "https://captiongen.ai",
+    "logo": "/logos/captiongen.png",
+    "tags": [
+      "social",
+      "content"
+    ]
+  },
+  {
+    "name": "CaptionHub",
+    "slug": "captionhub",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "Subtitle and caption workflows with AI assistance.",
+    "website": "https://captionhub.com",
+    "logo": "/logos/captionhub.png",
+    "tags": [
+      "captioning",
+      "video"
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "Chatbot",
+    "pricing": "Freemium",
+    "description": "Conversational AI assistant for chat, coding, and knowledge tasks.",
+    "website": "https://openai.com",
+    "logo": "/logos/chatgpt.png",
+    "tags": [
+      "chatbot",
+      "nlp",
+      "assistant"
+    ]
+  },
+  {
+    "name": "Chirp",
+    "slug": "chirp",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Short-form audio generation and sharing tools.",
+    "website": "https://chirp.ai",
+    "logo": "/logos/chirp.png",
+    "tags": [
+      "audio",
+      "social"
+    ]
+  },
+  {
+    "name": "Claude",
+    "slug": "claude",
+    "category": "Chatbot",
+    "pricing": "Paid",
+    "description": "Safety-focused assistant for long-form reasoning and chat.",
+    "website": "https://anthropic.com",
+    "logo": "/logos/claude.png",
+    "tags": [
+      "chatbot",
+      "safety",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Claude Instant",
+    "slug": "claude-instant",
+    "category": "Chatbot",
+    "pricing": "Paid",
+    "description": "Fast conversational assistant for quick tasks.",
+    "website": "https://anthropic.com",
+    "logo": "/logos/claude-instant.png",
+    "tags": [
+      "chatbot",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Clearbit",
+    "slug": "clearbit",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "B2B data enrichment for leads and profiles.",
+    "website": "https://clearbit.com",
+    "logo": "/logos/clearbit.png",
+    "tags": [
+      "data",
+      "enrichment"
+    ]
+  },
+  {
+    "name": "Clearscope",
+    "slug": "clearscope",
+    "category": "SEO",
+    "pricing": "Paid",
+    "description": "Content relevance and keyword optimization for writers.",
+    "website": "https://clearscope.io",
+    "logo": "/logos/clearscope.png",
+    "tags": [
+      "seo",
+      "writing"
+    ]
+  },
+  {
+    "name": "ClipDrop",
+    "slug": "clipdrop",
+    "category": "Images",
+    "pricing": "Freemium",
+    "description": "Image editing and background removal powered by AI.",
+    "website": "https://clipdrop.co",
+    "logo": "/logos/clipdrop.png",
+    "tags": [
+      "image-edit",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Cogram",
+    "slug": "cogram",
+    "category": "Data",
+    "pricing": "Freemium",
+    "description": "AI assistant for data scientists inside notebooks.",
+    "website": "https://cogram.com",
+    "logo": "/logos/cogram.png",
+    "tags": [
+      "data",
+      "notebooks"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "slug": "cohere",
+    "category": "NLP",
+    "pricing": "Paid",
+    "description": "Text generation and embeddings for developers and enterprises.",
+    "website": "https://cohere.ai",
+    "logo": "/logos/cohere.png",
+    "tags": [
+      "nlp",
+      "embeddings"
+    ]
+  },
+  {
+    "name": "Copilot",
+    "slug": "copilot",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "AI pair programmer integrated with your IDE and GitHub.",
+    "website": "https://copilot.microsoft.com/",
+    "logo": "/logos/copilot.png",
+    "tags": [
+      "code",
+      "ide",
+      "autocomplete"
+    ]
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copyai",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "AI writing assistant for ads, social posts, and emails.",
+    "website": "https://copy.ai",
+    "logo": "/logos/copyai.png",
+    "tags": [
+      "copywriting",
+      "marketing"
+    ]
+  },
+  {
+    "name": "DALL\u00b7E",
+    "slug": "dalle",
+    "category": "Images",
+    "pricing": "Paid",
+    "description": "Text-to-image generation from OpenAI.",
+    "website": "https://openai.com",
+    "logo": "/logos/dalle.png",
+    "tags": [
+      "image-gen",
+      "creative"
+    ]
+  },
+  {
+    "name": "DataRobot",
+    "slug": "datarobot",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "Automated ML and model deployment for enterprises.",
+    "website": "https://datarobot.com",
+    "logo": "/logos/datarobot.png",
+    "tags": [
+      "ml",
+      "enterprise"
+    ]
+  },
+  {
+    "name": "Deepgram",
+    "slug": "deepgram",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Real-time speech recognition and transcription API.",
+    "website": "https://deepgram.com",
+    "logo": "/logos/deepgram.png",
+    "tags": [
+      "stt",
+      "api"
+    ]
+  },
+  {
+    "name": "DeepL",
+    "slug": "deepl",
+    "category": "NLP",
+    "pricing": "Freemium",
+    "description": "High-quality machine translation for teams and docs.",
+    "website": "https://deepl.com",
+    "logo": "/logos/deepl.png",
+    "tags": [
+      "translation",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Audio & video editor with AI tools like overdub and transcription.",
+    "website": "https://descript.com",
+    "logo": "/logos/descript.png",
+    "tags": [
+      "audio",
+      "editing"
+    ]
+  },
+  {
+    "name": "Desitone",
+    "slug": "desitone",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "AI mixing and mastering tools for audio producers.",
+    "website": "https://desitone.ai",
+    "logo": "/logos/desitone.png",
+    "tags": [
+      "audio",
+      "mixing"
+    ]
+  },
+  {
+    "name": "Drift",
+    "slug": "drift",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "Conversational marketing and lead qualification bots.",
+    "website": "https://drift.com",
+    "logo": "/logos/drift.png",
+    "tags": [
+      "marketing",
+      "chatbot"
+    ]
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "High-quality text-to-speech with expressive voices.",
+    "website": "https://elevenlabs.io",
+    "logo": "/logos/elevenlabs.png",
+    "tags": [
+      "tts",
+      "voice"
+    ]
+  },
+  {
+    "name": "Elicit",
+    "slug": "elicit",
+    "category": "Research",
+    "pricing": "Free",
+    "description": "Research assistant for literature review and evidence synthesis.",
+    "website": "https://elicit.org",
+    "logo": "/logos/elicit.png",
+    "tags": [
+      "research",
+      "literature"
+    ]
+  },
+  {
+    "name": "Explainpaper",
+    "slug": "explainpaper",
+    "category": "Research",
+    "pricing": "Free",
+    "description": "AI explanations for academic papers and equations.",
+    "website": "https://explainpaper.com",
+    "logo": "/logos/explainpaper.png",
+    "tags": [
+      "research",
+      "education"
+    ]
+  },
+  {
+    "name": "Explorium",
+    "slug": "explorium",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "Data enrichment and feature engineering platform.",
+    "website": "https://explorium.ai",
+    "logo": "/logos/explorium.png",
+    "tags": [
+      "data",
+      "enrich"
+    ]
+  },
+  {
+    "name": "Fathom",
+    "slug": "fathom",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "Automated meeting summaries and highlights.",
+    "website": "https://fathom.video",
+    "logo": "/logos/fathom.png",
+    "tags": [
+      "meetings",
+      "transcription"
+    ]
+  },
+  {
+    "name": "Figma AI",
+    "slug": "figma-ai",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "Design assistant integrated into Figma for UI suggestions.",
+    "website": "https://figma.com",
+    "logo": "/logos/figma-ai.png",
+    "tags": [
+      "design",
+      "ux"
+    ]
+  },
+  {
+    "name": "Figure Eight",
+    "slug": "figure-eight",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "Crowdsourced data labeling and annotation services.",
+    "website": "https://figure-eight.com",
+    "logo": "/logos/figure-eight.png",
+    "tags": [
+      "data",
+      "crowd"
+    ]
+  },
+  {
+    "name": "Fireflies.ai",
+    "slug": "firefliesai",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "Transcription and AI meeting notes for teams.",
+    "website": "https://fireflies.ai",
+    "logo": "/logos/firefliesai.png",
+    "tags": [
+      "meetings",
+      "notes"
+    ]
+  },
+  {
+    "name": "Flowise",
+    "slug": "flowise",
+    "category": "Agents",
+    "pricing": "Open",
+    "description": "Visual builder for LLM agent flows and chains.",
+    "website": "https://flowiseai.com",
+    "logo": "/logos/flowise.png",
+    "tags": [
+      "agents",
+      "workflow"
+    ]
+  },
+  {
+    "name": "Frase",
+    "slug": "frase",
+    "category": "SEO",
+    "pricing": "Paid",
+    "description": "AI research and content brief creation tool.",
+    "website": "https://frase.io",
+    "logo": "/logos/frase.png",
+    "tags": [
+      "seo",
+      "research"
+    ]
+  },
+  {
+    "name": "Front AI",
+    "slug": "front-ai",
+    "category": "Support",
+    "pricing": "Paid",
+    "description": "AI-assistants inside helpdesk workflows to draft replies.",
+    "website": "https://frontapp.com",
+    "logo": "/logos/front-ai.png",
+    "tags": [
+      "support",
+      "helpdesk"
+    ]
+  },
+  {
+    "name": "Genei",
+    "slug": "genei",
+    "category": "Research",
+    "pricing": "Paid",
+    "description": "AI summarization and research automation for teams.",
+    "website": "https://genei.io",
+    "logo": "/logos/genei.png",
+    "tags": [
+      "summarization",
+      "research"
+    ]
+  },
+  {
+    "name": "GitHub Copilot X",
+    "slug": "github-copilot-x",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "Next-gen coding assistant with chat and dev flows.",
+    "website": "https://github.com",
+    "logo": "/logos/github-copilot-x.png",
+    "tags": [
+      "code",
+      "chat",
+      "devtools"
+    ]
+  },
+  {
+    "name": "GPT-4o",
+    "slug": "gpt-4o",
+    "category": "Chatbot",
+    "pricing": "Paid",
+    "description": "Powerful multimodal model for reasoning, images and code.",
+    "website": "https://openai.com",
+    "logo": "/logos/gpt-4o.png",
+    "tags": [
+      "llm",
+      "multimodal",
+      "api"
+    ]
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "Writing assistant that improves clarity, tone, and correctness.",
+    "website": "https://grammarly.com",
+    "logo": "/logos/grammarly.png",
+    "tags": [
+      "writing",
+      "editing"
+    ]
+  },
+  {
+    "name": "H2O.ai",
+    "slug": "h2oai",
+    "category": "Data",
+    "pricing": "Open",
+    "description": "Open-source ML platform for model training and deployment.",
+    "website": "https://h2o.ai",
+    "logo": "/logos/h2oai.png",
+    "tags": [
+      "ml",
+      "open-source"
+    ]
+  },
+  {
+    "name": "Hemingway AI",
+    "slug": "hemingway-ai",
+    "category": "Writing",
+    "pricing": "Free",
+    "description": "Clarity and readability suggestions for writing.",
+    "website": "https://hemingwayapp.com",
+    "logo": "/logos/hemingway-ai.png",
+    "tags": [
+      "writing",
+      "editing"
+    ]
+  },
+  {
+    "name": "Hotpot.ai",
+    "slug": "hotpotai",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "AI design tools and mockup generators.",
+    "website": "https://hotpot.ai",
+    "logo": "/logos/hotpotai.png",
+    "tags": [
+      "design",
+      "mockups"
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "category": "Developer",
+    "pricing": "Open",
+    "description": "Model hosting, datasets and transformers ecosystem.",
+    "website": "https://huggingface.co",
+    "logo": "/logos/hugging-face.png",
+    "tags": [
+      "models",
+      "datasets",
+      "ml"
+    ]
+  },
+  {
+    "name": "Intercom Fin",
+    "slug": "intercom-fin",
+    "category": "Support",
+    "pricing": "Paid",
+    "description": "Conversational AI for customer messaging and bots.",
+    "website": "https://intercom.com",
+    "logo": "/logos/intercom-fin.png",
+    "tags": [
+      "support",
+      "chatbot"
+    ]
+  },
+  {
+    "name": "Jasper",
+    "slug": "jasper",
+    "category": "Writing",
+    "pricing": "Paid",
+    "description": "AI copywriting tool for marketing and content teams.",
+    "website": "https://jasper.ai",
+    "logo": "/logos/jasper.png",
+    "tags": [
+      "copywriting",
+      "marketing"
+    ]
+  },
+  {
+    "name": "Khanmigo",
+    "slug": "khanmigo",
+    "category": "Education",
+    "pricing": "Paid",
+    "description": "AI tutor integrated with Khan Academy content.",
+    "website": "https://www.khanmigo.ai",
+    "logo": "/logos/khanmigo.png",
+    "tags": [
+      "education",
+      "tutoring"
+    ]
+  },
+  {
+    "name": "KoboldAI",
+    "slug": "koboldai",
+    "category": "NLP",
+    "pricing": "Open",
+    "description": "Local-first language model hosting and chat interface.",
+    "website": "https://koboldai.net",
+    "logo": "/logos/koboldai.png",
+    "tags": [
+      "llm",
+      "local"
+    ]
+  },
+  {
+    "name": "Labelbox",
+    "slug": "labelbox",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "Data labeling and annotation platform for ML teams.",
+    "website": "https://labelbox.com",
+    "logo": "/logos/labelbox.png",
+    "tags": [
+      "labeling",
+      "data"
+    ]
+  },
+  {
+    "name": "LALAL.ai",
+    "slug": "lalalai",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "AI vocal and instrumental track separation.",
+    "website": "https://lalal.ai",
+    "logo": "/logos/lalalai.png",
+    "tags": [
+      "audio",
+      "sep"
+    ]
+  },
+  {
+    "name": "LottieFiles AI",
+    "slug": "lottiefiles-ai",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "AI tools to create and edit Lottie animations.",
+    "website": "https://lottiefiles.com",
+    "logo": "/logos/lottiefiles-ai.png",
+    "tags": [
+      "animation",
+      "design"
+    ]
+  },
+  {
+    "name": "Lumen5",
+    "slug": "lumen5",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "AI-driven video creation from text content.",
+    "website": "https://lumen5.com",
+    "logo": "/logos/lumen5.png",
+    "tags": [
+      "video",
+      "marketing"
+    ]
+  },
+  {
+    "name": "MagicForm",
+    "slug": "magicform",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "Generate forms, summaries and automations from prompts.",
+    "website": "https://magicform.ai",
+    "logo": "/logos/magicform.png",
+    "tags": [
+      "forms",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Make.com",
+    "slug": "makecom",
+    "category": "Automation",
+    "pricing": "Freemium",
+    "description": "Visual automations with integrations and AI modules.",
+    "website": "https://make.com",
+    "logo": "/logos/makecom.png",
+    "tags": [
+      "automation",
+      "no-code"
+    ]
+  },
+  {
+    "name": "MarketMuse",
+    "slug": "marketmuse",
+    "category": "SEO",
+    "pricing": "Paid",
+    "description": "Content planning and optimization using AI.",
+    "website": "https://marketmuse.com",
+    "logo": "/logos/marketmuse.png",
+    "tags": [
+      "seo",
+      "content"
+    ]
+  },
+  {
+    "name": "MeetGeek",
+    "slug": "meetgeek",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "AI meeting assistant that records and summarizes calls.",
+    "website": "https://meetgeek.ai",
+    "logo": "/logos/meetgeek.png",
+    "tags": [
+      "meetings",
+      "assistant"
+    ]
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "category": "Images",
+    "pricing": "Paid",
+    "description": "Community-driven image generation focused on artistry.",
+    "website": "https://midjourney.com",
+    "logo": "/logos/midjourney.png",
+    "tags": [
+      "image-gen",
+      "art"
+    ]
+  },
+  {
+    "name": "Milvus",
+    "slug": "milvus",
+    "category": "Vector DB",
+    "pricing": "Open",
+    "description": "Cloud-native vector database for embeddings.",
+    "website": "https://milvus.io",
+    "logo": "/logos/milvus.png",
+    "tags": [
+      "vector-db",
+      "search"
+    ]
+  },
+  {
+    "name": "Model Garden",
+    "slug": "model-garden",
+    "category": "Developer",
+    "pricing": "Open",
+    "description": "Repository of models and research from Google.",
+    "website": "https://cloud.google.com/model-garden",
+    "logo": "/logos/model-garden.png",
+    "tags": [
+      "models",
+      "research"
+    ]
+  },
+  {
+    "name": "ModelScope",
+    "slug": "modelscope",
+    "category": "Developer",
+    "pricing": "Open",
+    "description": "Chinese model hub and inference APIs.",
+    "website": "https://modelscope.cn/home",
+    "logo": "/logos/modelscope.png",
+    "tags": [
+      "models",
+      "inference"
+    ]
+  },
+  {
+    "name": "Murphy",
+    "slug": "murphy",
+    "category": "NLP",
+    "pricing": "Freemium",
+    "description": "Conversational assistant for customer support use-cases.",
+    "website": "https://www.getmurphy.ai/",
+    "logo": "/logos/murphy.png",
+    "tags": [
+      "support",
+      "chatbot"
+    ]
+  },
+  {
+    "name": "Mutable.ai",
+    "slug": "mutableai",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "Collaborative coding with AI assistance for teams.",
+    "website": "https://open-vsx.org/extension/mutable-ai/mutable-ai",
+    "logo": "/logos/mutableai.png",
+    "tags": [
+      "code",
+      "collab"
+    ]
+  },
+  {
+    "name": "Neptune.ai",
+    "slug": "neptuneai",
+    "category": "MLOps",
+    "pricing": "Paid",
+    "description": "Model registry and experiment metadata store.",
+    "website": "https://neptune.ai",
+    "logo": "/logos/neptuneai.png",
+    "tags": [
+      "mlops",
+      "registry"
+    ]
+  },
+  {
+    "name": "Notable",
+    "slug": "notable",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "Record and annotate product research with AI assistance.",
+    "website": "https://www.notablehealth.com",
+    "logo": "/logos/notable.png",
+    "tags": [
+      "research",
+      "notes"
+    ]
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "description": "AI features inside Notion for writing, summarizing and planning.",
+    "website": "https://notion.so",
+    "logo": "/logos/notion-ai.png",
+    "tags": [
+      "notes",
+      "productivity",
+      "writing"
+    ]
+  },
+  {
+    "name": "OpenAI Embeddings",
+    "slug": "openai-embeddings",
+    "category": "Knowledge",
+    "pricing": "Paid",
+    "description": "Embeddings API for semantic search and retrieval.",
+    "website": "https://openai.com",
+    "logo": "/logos/openai-embeddings.png",
+    "tags": [
+      "embeddings",
+      "search"
+    ]
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otterai",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "Transcription and meeting notes powered by AI.",
+    "website": "https://otter.ai",
+    "logo": "/logos/otterai.png",
+    "tags": [
+      "transcription",
+      "meetings"
+    ]
+  },
+  {
+    "name": "Paperform AI",
+    "slug": "paperform-ai",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "description": "Generate forms and automate responses using AI.",
+    "website": "https://paperform.co",
+    "logo": "/logos/paperform-ai.png",
+    "tags": [
+      "forms",
+      "automation"
+    ]
+  },
+  {
+    "name": "Paperpile AI",
+    "slug": "paperpile-ai",
+    "category": "Research",
+    "pricing": "Paid",
+    "description": "Reference manager with AI summarization features.",
+    "website": "https://paperpile.com",
+    "logo": "/logos/paperpile-ai.png",
+    "tags": [
+      "research",
+      "references"
+    ]
+  },
+  {
+    "name": "Pattern89",
+    "slug": "pattern89",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "AI marketing optimization for ad creatives and spend.",
+    "website": "https://pattern89.com",
+    "logo": "/logos/pattern89.png",
+    "tags": [
+      "ads",
+      "optimization"
+    ]
+  },
+  {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "category": "Search",
+    "pricing": "Freemium",
+    "description": "AI search assistant for concise answers with sources.",
+    "website": "https://perplexity.ai",
+    "logo": "/logos/perplexity.png",
+    "tags": [
+      "search",
+      "qa"
+    ]
+  },
+  {
+    "name": "Perplexity Pro",
+    "slug": "perplexity-pro",
+    "category": "Search",
+    "pricing": "Paid",
+    "description": "Premium features for research and citation-heavy queries.",
+    "website": "https://perplexity.ai",
+    "logo": "/logos/perplexity-pro.png",
+    "tags": [
+      "search",
+      "research"
+    ]
+  },
+  {
+    "name": "Phrasee",
+    "slug": "phrasee",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "AI copy for subject lines and brand language.",
+    "website": "https://legacy-app.phrasee.co/login",
+    "logo": "/logos/phrasee.png",
+    "tags": [
+      "copywriting",
+      "email"
+    ]
+  },
+  {
+    "name": "Pictory",
+    "slug": "pictory",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "Create short videos from long-form content automatically.",
+    "website": "https://pictory.ai",
+    "logo": "/logos/pictory.png",
+    "tags": [
+      "video",
+      "editing"
+    ]
+  },
+  {
+    "name": "Pinecone",
+    "slug": "pinecone",
+    "category": "Vector DB",
+    "pricing": "Paid",
+    "description": "Vector database for similarity search and embeddings.",
+    "website": "https://pinecone.io",
+    "logo": "/logos/pinecone.png",
+    "tags": [
+      "vector-db",
+      "search"
+    ]
+  },
+  {
+    "name": "PromptLayer",
+    "slug": "promptlayer",
+    "category": "Prompting",
+    "pricing": "Paid",
+    "description": "Logging and governance for LLM prompts and runs.",
+    "website": "https://promptlayer.com",
+    "logo": "/logos/promptlayer.png",
+    "tags": [
+      "logging",
+      "prompts"
+    ]
+  },
+  {
+    "name": "QuillBot",
+    "slug": "quillbot",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "Paraphrasing and summarization tools for writers.",
+    "website": "https://quillbot.com",
+    "logo": "/logos/quillbot.png",
+    "tags": [
+      "paraphrase",
+      "nlp"
+    ]
+  },
+  {
+    "name": "Rasa",
+    "slug": "rasa",
+    "category": "Conversation",
+    "pricing": "Open",
+    "description": "Open-source framework for building contextual assistants.",
+    "website": "https://rasa.com",
+    "logo": "/logos/rasa.png",
+    "tags": [
+      "open-source",
+      "chatbot"
+    ]
+  },
+  {
+    "name": "ReimagineHome",
+    "slug": "reimaginehome",
+    "category": "Design",
+    "pricing": "Paid",
+    "description": "Interior design mockups generated from photos.",
+    "website": "https://reimaginehome.ai",
+    "logo": "/logos/reimaginehome.png",
+    "tags": [
+      "design",
+      "interiors"
+    ]
+  },
+  {
+    "name": "Remove.bg",
+    "slug": "removebg",
+    "category": "Images",
+    "pricing": "Paid",
+    "description": "Automatic background removal for photos.",
+    "website": "https://remove.bg",
+    "logo": "/logos/removebg.png",
+    "tags": [
+      "image-edit",
+      "background-remove"
+    ]
+  },
+  {
+    "name": "Rephrase.ai",
+    "slug": "rephraseai",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "AI-driven personalized video generation for marketing.",
+    "website": "https://www.rephraseai.com",
+    "logo": "/logos/rephraseai.png",
+    "tags": [
+      "video",
+      "personalization"
+    ]
+  },
+  {
+    "name": "Replicate",
+    "slug": "replicate",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "Run machine learning models via API and host",
+    "website": "https://replicate.com",
+    "logo": "/logos/replicate.png",
+    "tags": [
+      "models",
+      "api"
+    ]
+  },
+  {
+    "name": "Replit Ghostwriter",
+    "slug": "replit-ghostwriter",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "In-browser code generation and assistance.",
+    "website": "https://replit.com",
+    "logo": "/logos/replit-ghostwriter.png",
+    "tags": [
+      "code",
+      "ide"
+    ]
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "category": "Images",
+    "pricing": "Paid",
+    "description": "Creative tools for video and image generation.",
+    "website": "https://runwayml.com",
+    "logo": "/logos/runway.png",
+    "tags": [
+      "image-gen",
+      "video",
+      "creative"
+    ]
+  },
+  {
+    "name": "Runway Audio",
+    "slug": "runway-audio",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "AI audio tools within Runway for sound design.",
+    "website": "https://runwayml.com",
+    "logo": "/logos/runway-audio.png",
+    "tags": [
+      "audio",
+      "design"
+    ]
+  },
+  {
+    "name": "Runway Gen-1",
+    "slug": "runway-gen-1",
+    "category": "Images",
+    "pricing": "Paid",
+    "description": "Earlier Runway generation model for images.",
+    "website": "https://runwayml.com",
+    "logo": "/logos/runway-gen-1.png",
+    "tags": [
+      "image-gen",
+      "creative"
+    ]
+  },
+  {
+    "name": "Runway Gen-2",
+    "slug": "runway-gen-2",
+    "category": "Images",
+    "pricing": "Paid",
+    "description": "Video generation model for creative video workflows.",
+    "website": "https://runwayml.com",
+    "logo": "/logos/runway-gen-2.png",
+    "tags": [
+      "video",
+      "image-gen"
+    ]
+  },
+  {
+    "name": "SageMaker Canvas",
+    "slug": "sagemaker-canvas",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "No-code ML model building and data prep on AWS.",
+    "website": "https://aws.amazon.com/sagemaker",
+    "logo": "/logos/sagemaker-canvas.png",
+    "tags": [
+      "ml",
+      "aws"
+    ]
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scale-ai",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "High-quality labeled data and human-in-the-loop pipelines.",
+    "website": "https://scale.com",
+    "logo": "/logos/scale-ai.png",
+    "tags": [
+      "data",
+      "annotation"
+    ]
+  },
+  {
+    "name": "Scholarcy",
+    "slug": "scholarcy",
+    "category": "Research",
+    "pricing": "Paid",
+    "description": "Summarize research papers and extract key points.",
+    "website": "https://scholarcy.com",
+    "logo": "/logos/scholarcy.png",
+    "tags": [
+      "summarization",
+      "research"
+    ]
+  },
+  {
+    "name": "Segment AI",
+    "slug": "segment-ai",
+    "category": "Analytics",
+    "pricing": "Paid",
+    "description": "Customer data platform with AI segmentation tools.",
+    "website": "https://segments.ai/",
+    "logo": "/logos/segment-ai.png",
+    "tags": [
+      "analytics",
+      "cdp"
+    ]
+  },
+  {
+    "name": "Sketch2Code",
+    "slug": "sketch2code",
+    "category": "Developer",
+    "pricing": "Free",
+    "description": "Convert hand-drawn sketches into HTML with AI.",
+    "website": "https://github.com/SALT-NLP/Sketch2Code",
+    "logo": "/logos/sketch2code.png",
+    "tags": [
+      "codegen",
+      "design"
+    ]
+  },
+  {
+    "name": "Sketchfab AI",
+    "slug": "sketchfab-ai",
+    "category": "3D",
+    "pricing": "Freemium",
+    "description": "3D model hosting with AI-assisted tagging and search.",
+    "website": "https://sketchfab.com",
+    "logo": "/logos/sketchfab-ai.png",
+    "tags": [
+      "3d",
+      "models"
+    ]
+  },
+  {
+    "name": "Sloyd",
+    "slug": "sloyd",
+    "category": "Design",
+    "pricing": "Paid",
+    "description": "3D asset generator for games and product mockups.",
+    "website": "https://sloyd.ai",
+    "logo": "/logos/sloyd.png",
+    "tags": [
+      "3d",
+      "assets"
+    ]
+  },
+  {
+    "name": "Snorkel AI",
+    "slug": "snorkel-ai",
+    "category": "Data",
+    "pricing": "Paid",
+    "description": "Programmatic labeling and data-centric ML platform.",
+    "website": "https://snorkel.ai",
+    "logo": "/logos/snorkel-ai.png",
+    "tags": [
+      "data",
+      "labeling"
+    ]
+  },
+  {
+    "name": "Snyk AI",
+    "slug": "snyk-ai",
+    "category": "Security",
+    "pricing": "Paid",
+    "description": "AI-powered vulnerability detection for code and containers.",
+    "website": "https://snyk.io",
+    "logo": "/logos/snyk-ai.png",
+    "tags": [
+      "security",
+      "devsecops"
+    ]
+  },
+  {
+    "name": "Socratic",
+    "slug": "socratic",
+    "category": "Education",
+    "pricing": "Free",
+    "description": "AI tutoring and homework help for students.",
+    "website": "https://socratic.org",
+    "logo": "/logos/socratic.png",
+    "tags": [
+      "education",
+      "tutoring"
+    ]
+  },
+  {
+    "name": "Socratic by Google",
+    "slug": "socratic-by-google",
+    "category": "Education",
+    "pricing": "Free",
+    "description": "Homework help with visual explanations and AI.",
+    "website": "https://socratic.org",
+    "logo": "/logos/socratic-by-google.png",
+    "tags": [
+      "education",
+      "homework"
+    ]
+  },
+  {
+    "name": "Socratic Tutor",
+    "slug": "socratic-tutor",
+    "category": "Education",
+    "pricing": "Free",
+    "description": "Visual math and science help using AI.",
+    "website": "https://socratic.org",
+    "logo": "/logos/socratic-tutor.png",
+    "tags": [
+      "education",
+      "math"
+    ]
+  },
+  {
+    "name": "Soundful",
+    "slug": "soundful",
+    "category": "Music",
+    "pricing": "Paid",
+    "description": "AI music generator for royalty-free background music.",
+    "website": "https://soundful.com",
+    "logo": "/logos/soundful.png",
+    "tags": [
+      "music",
+      "audio"
+    ]
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "category": "Images",
+    "pricing": "Open",
+    "description": "Open-source image generation models and ecosystems.",
+    "website": "https://stability.ai",
+    "logo": "/logos/stable-diffusion.png",
+    "tags": [
+      "image-gen",
+      "open-source"
+    ]
+  },
+  {
+    "name": "Surfer SEO",
+    "slug": "surfer-seo",
+    "category": "SEO",
+    "pricing": "Paid",
+    "description": "Content optimization with AI-driven recommendations.",
+    "website": "https://surferseo.com",
+    "logo": "/logos/surfer-seo.png",
+    "tags": [
+      "seo",
+      "content"
+    ]
+  },
+  {
+    "name": "Swim.ai",
+    "slug": "swimai",
+    "category": "Analytics",
+    "pricing": "Paid",
+    "description": "Real-time streaming analytics with AI insights.",
+    "website": "https://swimm.io",
+    "logo": "/logos/swimmai.png",
+    "tags": [
+      "analytics",
+      "stream"
+    ]
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "AI video generation with talking avatars and localization.",
+    "website": "https://synthesia.io",
+    "logo": "/logos/synthesia.png",
+    "tags": [
+      "video",
+      "tts",
+      "avatars"
+    ]
+  },
+  {
+    "name": "Synthesys",
+    "slug": "synthesys",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Human-like voice generation for narrations and ads.",
+    "website": "https://synthesys.io",
+    "logo": "/logos/synthesys.png",
+    "tags": [
+      "tts",
+      "voice"
+    ]
+  },
+  {
+    "name": "Synths.video",
+    "slug": "synthsvideo",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "Convert blog posts into narrated videos automatically.",
+    "website": "https://synths.video",
+    "logo": "/logos/synthsvideo.png",
+    "tags": [
+      "video",
+      "automation"
+    ]
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "AI code completion accelerator for teams.",
+    "website": "https://tabnine.com",
+    "logo": "/logos/tabnine.png",
+    "tags": [
+      "code",
+      "autocomplete"
+    ]
+  },
+  {
+    "name": "TeleportHQ",
+    "slug": "teleporthq",
+    "category": "Developer",
+    "pricing": "Freemium",
+    "description": "AI-assisted front-end code generation from designs.",
+    "website": "https://teleporthq.io",
+    "logo": "/logos/teleporthq.png",
+    "tags": [
+      "codegen",
+      "frontend"
+    ]
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "category": "Presentation",
+    "pricing": "Freemium",
+    "description": "AI-first presentation builder and storytelling tool.",
+    "website": "https://landing-staging.tome.app/",
+    "logo": "/logos/tome.png",
+    "tags": [
+      "presentations",
+      "design"
+    ]
+  },
+  {
+    "name": "Translate.ai",
+    "slug": "translateai",
+    "category": "NLP",
+    "pricing": "Paid",
+    "description": "Enterprise translation API with customization.",
+    "website": "https://translate.ai",
+    "logo": "/logos/translateai.png",
+    "tags": [
+      "translation",
+      "api"
+    ]
+  },
+  {
+    "name": "Uizard",
+    "slug": "uizard",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "Transform sketches into UI designs with AI.",
+    "website": "https://uizard.io",
+    "logo": "/logos/uizard.png",
+    "tags": [
+      "ui",
+      "design"
+    ]
+  },
+  {
+    "name": "Valohai",
+    "slug": "valohai",
+    "category": "MLOps",
+    "pricing": "Paid",
+    "description": "MLOps platform for reproducible pipelines and training.",
+    "website": "https://valohai.com",
+    "logo": "/logos/valohai.png",
+    "tags": [
+      "mlops",
+      "pipelines"
+    ]
+  },
+  {
+    "name": "Verbit",
+    "slug": "verbit",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Enterprise transcription and captioning solutions.",
+    "website": "https://verbit.ai",
+    "logo": "/logos/verbit.png",
+    "tags": [
+      "captioning",
+      "stt"
+    ]
+  },
+  {
+    "name": "Vercel AI",
+    "slug": "vercel-ai",
+    "category": "Developer",
+    "pricing": "Paid",
+    "description": "AI platform and SDKs for building AI features in apps.",
+    "website": "https://vercel.com",
+    "logo": "/logos/vercel-ai.png",
+    "tags": [
+      "platform",
+      "deploy"
+    ]
+  },
+  {
+    "name": "Vidyo.ai",
+    "slug": "vidyoai",
+    "category": "Video",
+    "pricing": "Freemium",
+    "description": "Create short clips from long videos using AI highlights.",
+    "website": "https://vidyo.ai",
+    "logo": "/logos/vidyoai.png",
+    "tags": [
+      "video",
+      "editing"
+    ]
+  },
+  {
+    "name": "Viz.ai",
+    "slug": "vizai",
+    "category": "Healthcare",
+    "pricing": "Paid",
+    "description": "AI for clinical workflows and imaging triage.",
+    "website": "https://viz.ai",
+    "logo": "/logos/vizai.png",
+    "tags": [
+      "healthcare",
+      "imaging"
+    ]
+  },
+  {
+    "name": "Voiceflow",
+    "slug": "voiceflow",
+    "category": "Conversation",
+    "pricing": "Paid",
+    "description": "Design, prototype and deploy voice and chat assistants.",
+    "website": "https://voiceflow.com",
+    "logo": "/logos/voiceflow.png",
+    "tags": [
+      "chatbot",
+      "voice"
+    ]
+  },
+  {
+    "name": "Weaviate",
+    "slug": "weaviate",
+    "category": "Vector DB",
+    "pricing": "Open",
+    "description": "Open-source vector search engine with modules.",
+    "website": "https://weaviate.io",
+    "logo": "/logos/weaviate.png",
+    "tags": [
+      "vector-db",
+      "search"
+    ]
+  },
+  {
+    "name": "Weights & Biases",
+    "slug": "weights-&-biases",
+    "category": "MLOps",
+    "pricing": "Paid",
+    "description": "Experiment tracking and model monitoring for ML teams.",
+    "website": "https://wandb.ai",
+    "logo": "/logos/weights-&-biases.png",
+    "tags": [
+      "mlops",
+      "tracking"
+    ]
+  },
+  {
+    "name": "Whisper",
+    "slug": "whisper",
+    "category": "Audio",
+    "pricing": "Open",
+    "description": "Speech-to-text model for accurate transcription.",
+    "website": "https://whisperai.com",
+    "logo": "/logos/whisper.png",
+    "tags": [
+      "stt",
+      "transcription"
+    ]
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "AI writer for long-form content and marketing copy.",
+    "website": "https://writesonic.com",
+    "logo": "/logos/writesonic.png",
+    "tags": [
+      "writing",
+      "content"
+    ]
+  },
+  {
+    "name": "Zapier AI",
+    "slug": "zapier-ai",
+    "category": "Automation",
+    "pricing": "Paid",
+    "description": "Automate workflows with AI-powered actions.",
+    "website": "https://zapier.com",
+    "logo": "/logos/zapier-ai.png",
+    "tags": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "name": "Zendesk AI",
+    "slug": "zendesk-ai",
+    "category": "Support",
+    "pricing": "Paid",
+    "description": "AI features in Zendesk for faster customer responses.",
+    "website": "https://zendesk.com",
+    "logo": "/logos/zendesk-ai.png",
+    "tags": [
+      "support",
+      "helpdesk"
+    ]
+  },
+  {
+    "name": "Zilliz",
+    "slug": "zilliz",
+    "category": "Vector DB",
+    "pricing": "Paid",
+    "description": "Vector database solutions for enterprise search.",
+    "website": "https://zilliz.com",
+    "logo": "/logos/zilliz.png",
+    "tags": [
+      "vector-db",
+      "search"
+    ]
+  }
+]
