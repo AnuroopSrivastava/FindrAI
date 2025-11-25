@@ -17,24 +17,21 @@ type Message = {
 export default function DashboardPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [meta, setMeta] = useState({ page: 1, pages: 1, total: 0, limit: 10, unreadCount: 0 });
-  const [loading, setLoading] = useState(false);
   const [selected, setSelected] = useState<Message | null>(null);
   const [replyOpen, setReplyOpen] = useState(false);
   const [replyText, setReplyText] = useState("");
   const [replySubject, setReplySubject] = useState("");
+
   const limit = meta.limit || 10;
 
   const fetchPage = async (page = 1) => {
-    setLoading(true);
     const res = await fetch(`/api/admin/messages?page=${page}&limit=${limit}`);
     const json = await res.json();
     setMessages(json.messages || []);
     setMeta(json.meta || meta);
-    setLoading(false);
   };
 
   useEffect(() => {
-    // simple client-side auth (redirect if no admin-auth)
     const ok = localStorage.getItem("admin-auth");
     if (!ok) {
       window.location.href = "/admin/login";
@@ -102,19 +99,25 @@ export default function DashboardPage() {
           {messages.map((m) => (
             <div
               key={m._id}
-              className={`p-5 rounded-2xl ${m.read ? "bg-white/3" : "bg-gradient-to-b from-[#0f1724]/60 to-[#071126]/40"} border border-white/6 shadow-lg transition-transform duration-200 transform hover:scale-[1.01]`}
+              className={`p-5 rounded-2xl ${
+                m.read ? "bg-white/3" : "bg-gradient-to-b from-[#0f1724]/60 to-[#071126]/40"
+              } border border-white/6 shadow-lg transition-transform duration-200 transform hover:scale-[1.01]`}
             >
               <div className="flex items-start justify-between">
                 <div>
                   <h3 className="text-lg font-semibold text-white">{m.subject}</h3>
-                  <p className="text-sm text-white/60">{m.name} — {m.email} {m.phone ? `• ${m.phone}` : ""}</p>
+                  <p className="text-sm text-white/60">
+                    {m.name} — {m.email} {m.phone ? `• ${m.phone}` : ""}
+                  </p>
                 </div>
 
                 <div className="flex items-center gap-2">
                   <button
                     title={m.read ? "Mark unread" : "Mark read"}
                     onClick={() => toggleRead(m._id, !m.read)}
-                    className={`p-2 rounded-md ${m.read ? "bg-white/5" : "bg-blue-600/90"} hover:opacity-90`}
+                    className={`p-2 rounded-md ${
+                      m.read ? "bg-white/5" : "bg-blue-600/90"
+                    } hover:opacity-90`}
                   >
                     <CheckCircle className="w-4 h-4 text-white" />
                   </button>
@@ -149,11 +152,18 @@ export default function DashboardPage() {
           ))}
         </div>
 
-        {/* Pagination */}
         <div className="mt-6 flex items-center justify-center gap-3">
-          <button onClick={() => go(-1)} className="px-3 py-1 rounded-md bg-white/5 hover:bg-white/6"><ArrowLeft className="inline w-4 h-4 mr-1" /> Prev</button>
-          <div className="px-3 py-1 rounded-md bg-white/3">Page {meta.page} / {meta.pages}</div>
-          <button onClick={() => go(1)} className="px-3 py-1 rounded-md bg-white/5 hover:bg-white/6">Next <ArrowRight className="inline w-4 h-4 ml-1" /></button>
+          <button onClick={() => go(-1)} className="px-3 py-1 rounded-md bg-white/5 hover:bg-white/6">
+            <ArrowLeft className="inline w-4 h-4 mr-1" /> Prev
+          </button>
+
+          <div className="px-3 py-1 rounded-md bg-white/3">
+            Page {meta.page} / {meta.pages}
+          </div>
+
+          <button onClick={() => go(1)} className="px-3 py-1 rounded-md bg-white/5 hover:bg-white/6">
+            Next <ArrowRight className="inline w-4 h-4 ml-1" />
+          </button>
         </div>
       </div>
 
@@ -161,7 +171,9 @@ export default function DashboardPage() {
       {replyOpen && selected && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
           <div className="w-full max-w-2xl p-6 rounded-2xl bg-gradient-to-b from-[#0f1b2d]/70 to-[#0d1a27]/30 border border-blue-500/20 shadow-2xl">
-            <h2 className="text-xl font-semibold text-white mb-2">Reply to {selected.name} — {selected.email}</h2>
+            <h2 className="text-xl font-semibold text-white mb-2">
+              Reply to {selected.name} — {selected.email}
+            </h2>
 
             <input
               className="w-full p-3 rounded-lg bg-black/30 border border-white/10 mb-3 text-white"
@@ -177,8 +189,12 @@ export default function DashboardPage() {
             />
 
             <div className="flex gap-3 justify-end">
-              <button onClick={() => setReplyOpen(false)} className="px-4 py-2 rounded-lg bg-white/5">Cancel</button>
-              <button onClick={sendReply} className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700">Send Reply</button>
+              <button onClick={() => setReplyOpen(false)} className="px-4 py-2 rounded-lg bg-white/5">
+                Cancel
+              </button>
+              <button onClick={sendReply} className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700">
+                Send Reply
+              </button>
             </div>
           </div>
         </div>
