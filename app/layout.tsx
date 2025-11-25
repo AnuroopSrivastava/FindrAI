@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -6,7 +5,6 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
 import React from "react";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +16,9 @@ export const metadata: Metadata = {
   description:
     "Discover powerful AI tools easily with FindrAI — Your modern AI tools directory.",
   icons: {
-    icon: "/icon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/icon.png",       // main favicon
+    shortcut: "/icon.png",   // shortcut icon
+    apple: "/icon.png",      // iOS/apple devices
   },
 };
 

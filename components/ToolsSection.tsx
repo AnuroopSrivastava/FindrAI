@@ -4,27 +4,23 @@ import { motion, Variants } from "framer-motion";
 import type { Tool } from "@/lib/getTools";
 import SearchFilterBar from "@/components/SearchFilterBar";
 
-// Fixed Framer Motion variants (with proper TS types + valid easing)
+// Safe mobile-friendly Framer Motion variants
 const sectionVariants: Variants = {
-  hidden: { opacity: 0, y: 32 },
+  hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.16, 1, 0.3, 1], // FIXED — no more "easeOut" string
-    },
+    transition: { duration: 0.4 },
   },
 };
 
 export default function ToolsSection({ tools }: { tools: Tool[] }) {
   return (
     <motion.section
+      initial="visible"           // 👈 FIX — always visible on first load
+      animate="visible"           // 👈 Fix for mobile browsers
       variants={sectionVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
-      className="mt-10"
+      className="mt-10 w-full overflow-x-hidden"   // 👈 Prevent mobile cut-off
     >
       <SearchFilterBar initialTools={tools} />
     </motion.section>
