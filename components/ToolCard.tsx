@@ -27,7 +27,7 @@ const getPricingIcon = (pricing: string) => {
   return map[pricing] || "💰"; // Fallback icon
 };
 
-// 🔥 Improved logic for resolving tool logo file path
+// Resolve tool logo file path
 const normalizeLogo = (logo: string) => {
   if (!logo) return "/logos/default.png"; // fallback if missing
 
@@ -37,11 +37,12 @@ const normalizeLogo = (logo: string) => {
 
   return `/logos/${logo
     .toLowerCase()
-    .replace(/[^a-z0-9.]/g, "")}`; // remove spaces + invalid chars
+    .replace(/[^a-z0-9.]/g, "")}`; // clean path
 };
 
 export default function ToolCard({ tool }: { tool: Tool }) {
-  const logoPath = normalizeLogo(tool.logo);
+  // TypeScript-safe, because you confirmed every tool has a logo
+  const logoPath = normalizeLogo(tool.logo!);
 
   return (
     <Link
@@ -56,7 +57,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
         hover:shadow-fuchsia-500/25 hover:border-fuchsia-400/40
         bg-white/5 backdrop-blur-sm"
       >
-        {/* Optimized Image */}
+        {/* Tool Logo */}
         <Image
           src={logoPath}
           alt={tool.name}
@@ -73,17 +74,21 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           {tool.description}
         </p>
 
-        {/* Badges */}
+        {/* Category & Pricing Badges */}
         <div className="flex flex-wrap gap-2 mt-3">
-          {/* Category Badge */}
-          <span className="text-xs px-2.5 py-1 rounded-full bg-fuchsia-500/10 
-            border border-fuchsia-500/30 text-fuchsia-300 backdrop-blur-sm">
+          {/* Category */}
+          <span
+            className="text-xs px-2.5 py-1 rounded-full bg-fuchsia-500/10 
+            border border-fuchsia-500/30 text-fuchsia-300 backdrop-blur-sm"
+          >
             {getCategoryIcon(tool.category)} {tool.category || "Other"}
           </span>
 
-          {/* Pricing Badge */}
-          <span className="text-xs px-2.5 py-1 rounded-full bg-cyan-500/10 
-            border border-cyan-500/30 text-cyan-300 backdrop-blur-sm">
+          {/* Pricing */}
+          <span
+            className="text-xs px-2.5 py-1 rounded-full bg-cyan-500/10 
+            border border-cyan-500/30 text-cyan-300 backdrop-blur-sm"
+          >
             {getPricingIcon(tool.pricing)} {tool.pricing}
           </span>
         </div>
