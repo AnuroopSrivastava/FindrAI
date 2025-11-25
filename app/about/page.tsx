@@ -7,14 +7,14 @@ import socialLinks from "@/data/socialLinks.json";
 
 type SocialKey = keyof typeof socialLinks;
 
-const sectionVariants = {
-  hidden: { opacity: 0, y: 20 },
+const sectionVariants: Variants = {
+  hidden: { opacity: 0, y: 32 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.6,
-      ease: [0.16, 1, 0.3, 1], // FIXED
+      ease: [0.16, 1, 0.3, 1], // FIXED – NO STRING
     },
   },
 };
