@@ -24,7 +24,7 @@ Find AI tools by category, explore tool details, and manage admin replies with s
 - Success modal + Loading state
 
 🚀 Deployment
-- Fully optimized for Vercel : 
+- Fully optimized for Vercel : findr-ai-sepia.vercel.app
 - Works seamlessly with Edge/Node runtimes
 - No environment conflicts
 
