@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import socialLinks from "@/data/socialLinks.json";
 
 type SocialKey = keyof typeof socialLinks;
