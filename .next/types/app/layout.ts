@@ -1,4 +1,4 @@
-// File: D:\PROJECTS\ai-tools-catalog\ai-tools-website\app\layout.tsx
+// File: D:\PROJECTS\FindAR\FindrAI_Website\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -35,9 +35,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJECTS\ai-tools-catalog\ai-tools-website\node_modules\next-themes\dist\index.mjs#ThemeProvider`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJECTS\FindAR\FindrAI_Website\node_modules\next-themes\dist\index.mjs#ThemeProvider`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJECTS\ai-tools-catalog\ai-tools-website\node_modules\next-themes\dist\index.mjs#useTheme`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJECTS\FindAR\FindrAI_Website\node_modules\next-themes\dist\index.mjs#useTheme`);
 
 
 /***/ })
