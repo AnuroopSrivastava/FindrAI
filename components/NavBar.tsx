@@ -324,7 +324,7 @@ export default function NavBar() {
                 <input
                   autoFocus
                   type="text"
-                  placeholder="Search tools… (UI only, wire to logic later)"
+                  placeholder="Search tools…"
                   className="w-full bg-transparent text-sm text-slate-100 placeholder:text-slate-500 focus:outline-none"
                 />
                 <span className="hidden rounded-md border border-slate-700 bg-slate-950 px-1.5 py-0.5 text-[10px] text-slate-400 sm:inline-block">
@@ -334,8 +334,6 @@ export default function NavBar() {
             </div>
             <div className="px-4 pb-4 pt-1">
               <p className="text-[11px] text-slate-500">
-                Tip: You can connect this search to your actual tools data later
-                for instant filtering.
               </p>
             </div>
           </div>
