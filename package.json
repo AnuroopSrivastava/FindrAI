@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx --fix"
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "postinstall": "npm install @types/jsonwebtoken --save-dev"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
